@@ -1,0 +1,193 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:ital@1&family=Noto+Sans+Mono&family=Poppins&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Noto Sans Mono', monospace;
+
+font-family: 'Poppins', sans-serif; */
+
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    margin: 1px;
+    padding: 1px;
+}
+
+a {text-decoration: none;color: black;}
+
+ul {margin: 0;padding: 0;}
+ul li {list-style-type: none;}
+
+.bold {font-weight: bold;display: inline-block;}
+
+/* 0. ------------ */
+.wrap-noShowFullWindo {display: none;}
+
+/* full container */
+#wrap-fullContainer {
+    display: flex;
+}
+
+/* 1. ------------------------------------------ */
+/* navbar */
+.wrap-navbar {
+    flex: 4;
+    display: flex;
+}
+
+/* navbar menu */
+.wrap-navbar .navbar-menu {
+    flex: 2;
+    border-right: 3px solid #f8f8f8;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.wrap-navbar .navbar-brand h1 a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 34px;
+}
+
+.wrap-navbar .navbar-menu nav {
+    margin: 0;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.wrap-navbar .navbar-menu nav ul li.navbar-link {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 10px 0;
+    /* border: 1px solid black; */
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrap-navbar .navbar-menu nav ul li.navbar-link a {
+    padding: 12px;
+    display: block;
+}
+
+.wrap-navbar .navbar-menu nav ul li.navbar-link a.active {
+    display: block;
+    background-color: #030303;
+    padding: 12px;
+    color: white;
+}
+
+/* navbar top */
+.wrap-navbar .navbar-top {
+    flex: 3;
+    padding: 18px;
+}
+
+.wrap-navbar .navbar-top .top-brand h3 a {
+    display: block;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.wrap-navbar .navbar-top .top-brand span {
+    font-size: 12px;
+    color: rgb(141, 138, 138);
+    display: inline-block;
+    font-style: italic;
+}
+
+/* writing */
+.wrap-navbar .navbar-top .list-writing {
+    /* border: 1px solid #f8f8f8; */
+    margin-top: 24px;
+}
+
+.wrap-navbar .navbar-top .list-writing h4 {
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4px;
+}
+.wrap-navbar .navbar-top .list-writing h4 .bold {
+    font-size: 30px !important;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+/* card writing */
+.wrap-navbar .navbar-top .list-writing .writing-group .wrap-card {
+    /* border: 1px solid black; */
+    min-height: 80px;
+    /* background-color: #d2f9e7; */
+    padding: 12px;
+    position: relative;
+}
+
+.wrap-navbar .navbar-top .list-writing .writing-group .wrap-card h5 {
+    font-size: 21px;
+    text-transform: capitalize;
+}
+
+.wrap-navbar .navbar-top .list-writing .writing-group .wrap-card .more {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.wrap-navbar .navbar-top .list-writing .writing-group .wrap-card .more-post {
+    /* border: 1px solid rgb(37, 193, 214); */
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 4px;
+}
+
+/* 2. ------------------------------------------------------------------------ */
+/* web contents */
+.wrap-web-contents {
+    flex: 5;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+/* 
+    body {
+        display: none;
+    } */
+
+    /* fullCoontainer */
+    #wrap-fullContainer {
+        display: block;
+    }
+
+    /* 1. -------------------------------- */
+    .wrap-navbar {
+        display: block;
+    }
+
+    .wrap-navbar .navbar-menu {
+        border: none;
+        border: 1px solid black;
+        min-height: auto;
+    }
+
+    /* 2. -------------------------------- */
+    .wrap-web-contents {
+        display: none;
+    }
+}

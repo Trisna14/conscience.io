@@ -204,6 +204,19 @@ ul li {list-style-type: none;}
         border: 1px solid blue;
     }
 
+    .wrap-navbar .navbar-menu .navbar-btn .btn-vnlljs-navbar {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        padding: 2px;
+    }
+
+    .wrap-navbar .navbar-menu .navbar-btn .btn-vnlljs-navbar .btn {
+        height: 2px;
+        display: block;
+        background-color: black;
+    }
+
     
 
     /* 2. -------------------------------- */

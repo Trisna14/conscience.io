@@ -209,7 +209,7 @@ ul li {list-style-type: none;}
         margin: 0;
         padding: 0;
         display: block;
-        width: 60%;
+        width: 65%;
         min-height: 100vh;
         border: 1px solid rgba(241, 238, 238, 0.685);
         margin-top: 10px;
@@ -219,6 +219,7 @@ ul li {list-style-type: none;}
     .wrap-navbar .navbar-menu .show-navbar-vnlljs {
         transform: translateX(0) !important;
         transition: 0.6s all;
+        margin-left: -10px;
     }
 
     /* navbar btn */
@@ -244,6 +245,12 @@ ul li {list-style-type: none;}
         background-color: rgb(138, 132, 132);
         margin-top: 4px;
         cursor: pointer;
+    }
+
+    /* navbar top */
+    .wrap-navbar .navbar-top {
+        /* border: 1px solid black; */
+        margin: 0;
     }
 
     

@@ -170,8 +170,8 @@ ul li {list-style-type: none;}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 900px) {
-/* 
-    * {
+
+    /* * {
         border: 1px solid black;
     } */
 
@@ -188,6 +188,7 @@ ul li {list-style-type: none;}
     /* 1. -------------------------------- */
     .wrap-navbar {
         display: block;
+        position: relative;
     }
 
     .wrap-navbar .navbar-menu {
@@ -198,23 +199,51 @@ ul li {list-style-type: none;}
         background-color: #f8f8f8;
     }
 
+    .wrap-navbar .navbar-menu .navbar-btn-target-vnlljs {
+        /* border: 1px solid red; */
+        transform: translateX(-100%);
+        transition: 0.6s;
+        position: fixed;
+        z-index: 100;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 60%;
+        min-height: 100vh;
+        border: 1px solid rgba(241, 238, 238, 0.685);
+        margin-top: 10px;
+        box-shadow: 2px 2px 2px rgba(220, 220, 220, 0.445);
+    }
+
+    .wrap-navbar .navbar-menu .show-navbar-vnlljs {
+        transform: translateX(0) !important;
+        transition: 0.6s all;
+    }
+
+    /* navbar btn */
     .wrap-navbar .navbar-menu .navbar-btn {
         display: block;
         border: none;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
 
     .wrap-navbar .navbar-menu .navbar-btn .btn-vnlljs-navbar {
-        border: 1px solid black;
+        border: 1px solid rgb(177, 165, 165);
         width: 40px;
         height: 40px;
         padding: 2px;
+        cursor: pointer;
+        border-radius: 2px;
+        background-color: #fdfdfd23;
     }
 
     .wrap-navbar .navbar-menu .navbar-btn .btn-vnlljs-navbar .btn {
         height: 2px;
         display: block;
-        background-color: black;
+        background-color: rgb(138, 132, 132);
+        margin-top: 4px;
+        cursor: pointer;
     }
 
     

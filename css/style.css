@@ -213,11 +213,6 @@ ul li {list-style-type: none;}
     width: 100%;
 }
 
-/* 2. ------------------------------------------------------------------------ */
-/* web contents */
-.wrap-web-contents {
-    flex: 5;
-}
 
 
 /* RESPONSIVE */
@@ -308,9 +303,4 @@ ul li {list-style-type: none;}
     }
 
     
-
-    /* 2. -------------------------------- */
-    .wrap-web-contents {
-        display: none;
-    }
 }

@@ -1,0 +1,77 @@
+/* * {
+    border: 1px solid black;
+} */
+
+
+/* 2. -------------------------------- */
+.wrap-web {
+    display: flex;
+    flex: 5;
+}
+
+/* one */
+.wrap-one {
+    flex: 3;
+    padding: 20px;
+}
+
+.wrap-one .wrap-media {
+    /* padding: 14px; */
+}
+
+.wrap-one .wrap-media h5 {
+    font-size: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: lighter;
+    color: gray;
+}
+.wrap-one .wrap-media h5 span {font-size: 30px;font-weight: bold;text-transform: uppercase;color: black;}
+
+.wrap-one .wrap-media .card-media {
+    /* border: 1px solid gray; */
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #f8f8f8;
+    display: flex;
+    /* min-height: 90px; */
+    /* border-left: 3px solid black; */
+}
+
+.wrap-one .wrap-media .card-media .wrap-img {
+    /* border: 1px solid black; */
+    width: 140px;
+    height: auto;
+    /* height: 70px; */
+    padding: 6px;
+    background-color: #d0cbed;
+    /* border-left: 3px solid black; */
+    /* color: gainsboro; */
+}
+
+.wrap-one .wrap-media .card-media .wrap-img {font-size: 15px;}
+.wrap-one .wrap-media .card-media .wrap-img a {
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.wrap-one .wrap-media .card-media .wrap-note {
+    padding: 8px 12px;
+}
+.wrap-one .wrap-media .card-media .wrap-note h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+/* second */
+.wrap-second {
+    flex: 2;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 900px) {
+    .wrap-web-contents {
+        display:  block;
+    }
+}

@@ -215,6 +215,7 @@ ul li {list-style-type: none;}
 
 
 
+
 /* RESPONSIVE */
 @media only screen and (max-width: 900px) {
 
@@ -282,16 +283,17 @@ ul li {list-style-type: none;}
         border: 1px solid rgb(177, 165, 165);
         width: 40px;
         height: 40px;
-        padding: 2px;
+        padding: 5px;
         cursor: pointer;
-        border-radius: 2px;
+        border-radius: 4px;
         background-color: #fdfdfd23;
+        background-color: rgba(80, 78, 78, 0.685);
     }
 
     .wrap-navbar .navbar-menu .navbar-btn .btn-vnlljs-navbar .btn {
         height: 2px;
         display: block;
-        background-color: rgb(138, 132, 132);
+        background-color: rgb(252, 246, 246);
         margin-top: 4px;
         cursor: pointer;
     }

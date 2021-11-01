@@ -15,35 +15,68 @@
     padding: 20px;
 }
 
-/* .wrap-one .wrap-media {
-    padding: 14px;
-} */
+/* media social */
+.wrap-one .wrap-media {
+    padding: 2px;
+    /* background-color: #2a3666;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 30px; */
+}
 
 .wrap-one .wrap-media h5 {
     font-size: 20px;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: lighter;
-    color: gray;
+    color: rgb(204, 197, 197);
 }
-.wrap-one .wrap-media h5 span {font-size: 30px;font-weight: bold;text-transform: uppercase;color: black;}
+.wrap-one .wrap-media h5 span {font-size: 30px;font-weight: bold;text-transform: uppercase;color: rgb(31, 29, 29);}
 
 .wrap-one .wrap-media .card-media {
     /* border: 1px solid gray; */
     margin-top: 10px;
     padding: 14px;
-    background-color: #f8f8f8;
-    display: flex;
+    /* background-color: #f8f8f8; */
+    /* display: flex; */
     /* min-height: 90px; */
     /* border-left: 3px solid black; */
+    border: 2px solid rgba(245, 245, 245, 0.795);
+    /* border-radius: 10px; */
+    /* background-color: #d2f9e7; */
+    position: relative;
+}
+
+.wrap-one .wrap-media .card-media .card-header {
+    display:  flex;
+}
+
+
+.wrap-one .wrap-media .card-media .card-header .social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gainsboro;
+    /* background-color: #d2f9e7;
+    background-color: black; */
+    padding: 4px;
+    border-bottom-left-radius: 6px;
+}
+
+.wrap-one .wrap-media .card-media .card-header .social  a {font-size: 26px;}
+
+.wrap-one .wrap-media .card-media hr {
+    color: rgba(220, 220, 220, 0.185);
+    margin: 14px 0;
 }
 
 .wrap-one .wrap-media .card-media .wrap-img {
     /* border: 1px solid black; */
-    width: 140px;
-    height: auto;
+    width: 40px;
+    height: 40px;
     /* height: 70px; */
+    border-radius: 100%;
     padding: 6px;
-    background-color: #d0cbed;
+    border: 1px solid gainsboro;
+    /* background-color: #d0cbed; */
     /* border-left: 3px solid black; */
     /* color: gainsboro; */
 }
@@ -54,12 +87,25 @@
 }
 
 .wrap-one .wrap-media .card-media .wrap-note {
-    padding: 8px 12px;
+    padding: 0px 12px;
 }
 .wrap-one .wrap-media .card-media .wrap-note h6 {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: lighter;
+    letter-spacing: 1px;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-one .wrap-media .card-media .wrap-note span {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    display: block;
 }
 
 
@@ -71,7 +117,26 @@
 
 /* RESPONSIVE */
 @media only screen and (max-width: 900px) {
-    .wrap-web-contents {
+    .wrap-web {
         display:  block;
+        /* border: 1px solid black; */
+        padding-right: 0;
+    }
+
+    /* one */
+    /* ------------------------------ */
+    .wrap-one {
+        /* border: 1px solid black; */
+        padding-right: 0;
+    }
+
+    /* media social */
+    .wrap-one .wrap-media {
+        background-color: #f8f8f8;
+        padding: 16px;
+    }
+
+    .wrap-one .wrap-media .card-media {
+        background-color: white;
     }
 }

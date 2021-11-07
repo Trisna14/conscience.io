@@ -140,6 +140,7 @@
     margin-top: 24px;
     position: relative;
     min-height: 100px;
+    padding: 8px;
 }
 
 .wrap-one .wrap-adver .adver-header {
@@ -159,7 +160,7 @@
     /* border: 1px solid black; */
     text-align: right;
     position: absolute;
-    right: 13px;
+    right: 23px;
     margin-top: 14px;
     color: gray;
     text-transform: capitalize;

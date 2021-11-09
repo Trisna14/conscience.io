@@ -264,4 +264,9 @@
     .wrap-one .wrap-media .card-media {
         background-color: white;
     }
+
+    /* bulletin */
+    .wrap-second .wrap-bulletin {
+        padding: 14px;
+    }
 }

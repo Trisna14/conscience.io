@@ -1,0 +1,51 @@
+/* wrap-one */
+/* youtube video */
+.wrap-youtube {
+    /* border: 1px solid black; */
+    margin-top: 35px;
+}
+
+.wrap-youtube .youtube {
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    padding: 6px;
+    padding-right: 27px;
+}
+
+.wrap-youtube .youtube .up {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.wrap-youtube .youtube .down {
+    font-size: 14px;
+    color: rgba(255, 0, 0, 0.555);
+}
+
+.wrap-youtube .wrap-video {
+    display: flex;
+    line-height: 0;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
+    padding: 6px;
+    border-left: 2px solid gainsboro;
+}
+
+.wrap-youtube .wrap-video .img {
+    /* border: 1px solid black; */
+    flex: 2;
+}
+
+.wrap-youtube .wrap-video .img img {
+    border: 1px solid gainsboro;
+    width: 150px;
+    height: 90px;
+    filter: grayscale(40%);
+}
+
+.wrap-youtube .wrap-video .name-video {
+    /* border: 1px solid black; */
+    flex: 3;
+    padding: 15px;
+}

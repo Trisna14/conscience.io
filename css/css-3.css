@@ -47,7 +47,7 @@
     filter: grayscale(40%);
     cursor: pointer;
     position: absolute;
-    z-index: 9;
+    z-index: 8;
 }
 
 .wrap-youtube .wrap-video .img .video-youtube-show {
@@ -62,7 +62,27 @@
     text-align: center;
     padding: 10px;
     font-size: 50px;
-    color: rgba(255, 0, 0, 0.952);
+    /* color: rgba(255, 0, 0, 0.952); */
+    color: rgba(255, 0, 0, 0.877);
+    cursor: pointer;
+    /* background-color: rgba(255, 0, 0, 0.178); */
+    transition: 0.9s;
+}
+
+.wrap-youtube .wrap-video .img .video-youtube-show #youtube-i {
+    position: absolute;
+    z-index: -1;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.wrap-youtube .wrap-video .img .showY {
+    display: block !important;
+    transition: 0.8s;
+    /* background-color: red; */
 }
 
 .wrap-youtube .wrap-video .name-video {

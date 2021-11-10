@@ -25,7 +25,7 @@
 
 .wrap-youtube .wrap-video {
     display: flex;
-    line-height: 0;
+    /* line-height: 0; */
     border: 1px solid #f8f8f8;
     background-color: #f8f8f8;
     padding: 12px 6px;
@@ -39,13 +39,29 @@
 
 .wrap-youtube .wrap-video .img img {
     border: 1px solid gainsboro;
-    width: 150px;
-    height: 90px;
+    width: 130px;
+    height: 80px;
     filter: grayscale(40%);
 }
 
 .wrap-youtube .wrap-video .name-video {
     /* border: 1px solid black; */
     flex: 3;
-    padding: 15px;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+.wrap-youtube .wrap-video .name-video .name {
+    display: inline-block;
+    /* border: 1px solid black; */
+    line-height: unset;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgb(19, 18, 18);
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrap-youtube .wrap-video .name-video .name {
+    color: rgb(19, 18, 18);
 }

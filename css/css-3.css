@@ -28,9 +28,10 @@
     display: flex;
     /* line-height: 0; */
     /* border: 1px solid #b80c0c; */
-    background-color: #f8f8f8;
+    background-color: #f8f8f844;
     padding: 12px 6px 6px 10px;
     /* border-left: 2px solid gainsboro; */
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.459);
 }
 
 .wrap-youtube .wrap-video .img {
@@ -63,7 +64,7 @@
     padding: 10px;
     font-size: 50px;
     /* color: rgba(255, 0, 0, 0.952); */
-    color: rgba(255, 0, 0, 0.877);
+    color: rgba(255, 0, 0, 0.678);
     cursor: pointer;
     /* background-color: rgba(255, 0, 0, 0.178); */
     transition: 1.9s;
@@ -86,6 +87,7 @@
 .wrap-youtube .wrap-video .img .showY {
     display: block !important;
     transition: 0.8s;
+    cursor: pointer;
     /* background-color: red; */
 }
 
